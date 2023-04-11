@@ -14,8 +14,155 @@
 
 body {
   min-height: 100vh;
+  font-size: 0.8125rem;
+  font-family: "Barlow Semi Condensed", sans-serif;
 }
 
 main {
+  display: flex;
+  flex-direction: column;
+  background-color: hsl(210deg, 46%, 95%);
   min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  padding-top: 4.375rem;
+  gap: 1.5625rem;
+}
+
+.card__container {
+  width: 20.5625rem;
+  padding: 1.5625rem;
+  border-radius: 0.625rem;
+  position: relative;
+  color: hsl(217deg, 19%, 35%);
+  transition: all 0.3s ease-out;
+  box-shadow: -6px 5px 5px -5px;
+}
+
+.card__container:hover {
+  transform: translateY(-3%);
+  box-shadow: -9px 8px 5px -5px;
+}
+
+img {
+  width: 1.875rem;
+  height: 1.875rem;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  outline: 1px solid hsl(263deg, 55%, 82%);
+}
+
+h1 {
+  font-size: 0.8125rem;
+}
+
+h1.one {
+  color: hsl(0deg, 0%, 100%);
+}
+
+h1.two {
+  color: hsl(0deg, 0%, 100%);
+}
+
+h1.three {
+  color: hsl(219deg, 29%, 14%);
+}
+
+h1.four {
+  color: hsl(0deg, 0%, 100%);
+}
+
+h1.one::before {
+  content: open-quote;
+  font-family: sans-serif;
+  color: hsl(263deg, 73%, 72%);
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translate(-5%, -12%);
+  font-size: 17.125rem;
+  z-index: 1;
+}
+
+.degree {
+  display: inline;
+  color: hsla(0deg, 0%, 100%, 0.5);
+}
+
+article.one {
+  background-color: hsl(263deg, 55%, 52%);
+}
+
+article.two {
+  background-color: hsl(217deg, 19%, 35%);
+}
+
+article.three {
+  background-color: hsl(0deg, 0%, 100%);
+}
+
+strong.three {
+  color: hsl(219deg, 29%, 14%);
+}
+
+article.four {
+  background-color: hsl(219deg, 29%, 14%);
+}
+
+article.five {
+  background-color: hsl(0deg, 0%, 100%);
+}
+
+p.five {
+  color: hsl(217deg, 19%, 35%);
+}
+
+strong.five {
+  color: hsl(219deg, 29%, 14%);
+}
+
+.bold__testimony {
+  font-size: 1.155rem;
+  font-weight: bolder;
+  line-height: 1.4;
+  z-index: 2;
+  color: hsl(0deg, 0%, 100%);
+}
+
+.testimonial__body {
+  color: hsl(0deg, 0%, 81%);
+}
+
+.profile {
+  display: flex;
+  flex-direction: row;
+  gap: 0.9375rem;
+  margin-bottom: 1.5625rem;
+}
+
+.profpic__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 1.5625rem;
+}
+
+a {
+  text-decoration: none;
+  width: 100%;
+  background-color: hsl(216deg, 55%, 60%);
+  color: #000;
+}
+
+.frontendmentor__info {
+  margin-top: 4.375rem;
+  width: 100%;
+  text-align: center;
+  background-color: hsl(216deg, 55%, 60%);
 }/*# sourceMappingURL=style.css.map */
