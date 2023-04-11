@@ -41,7 +41,6 @@ main {
 
 .card__container:hover {
   transform: translateY(-3%);
-  box-shadow: -9px 8px 5px -5px;
 }
 
 img {
