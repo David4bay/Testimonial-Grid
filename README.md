@@ -32,8 +32,8 @@ Added a screenshot of your solution.
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://stellar-lamington-03fc82.netlify.app/)
+- Solution URL: [GitHub Repo](https://github.com/David4bay/Testimonial-Grid)
+- Live Site URL: [Live Link](https://stellar-lamington-03fc82.netlify.app/)
 
 ## My process
 
