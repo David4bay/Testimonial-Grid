@@ -52,5 +52,5 @@ I mostly use css flexbox so this was a much needed exercise to try out css grid.
 ## Author
 
 - Website - [Hashnode](https://davidbay.hashnode.dev)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/David4bay)
-- Twitter - [@yourusername](https://www.twitter.com/davidbay01)
+- Frontend Mentor - [@David4bay](https://www.frontendmentor.io/profile/David4bay)
+- Twitter - [@Davidbay01](https://www.twitter.com/davidbay01)
