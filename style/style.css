@@ -168,7 +168,7 @@ a {
   background-color: hsl(216deg, 55%, 60%);
 }
 
-@media (min-width: 1630px) {
+@media (min-width: 1300px) {
   * {
     padding: 0;
     margin: 0;
